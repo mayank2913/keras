@@ -4,6 +4,7 @@ from keras.src.api_export import keras_export
 from keras.src.losses.loss import squeeze_or_expand_to_same_rank
 from keras.src.metrics import reduction_metrics
 
+# added a comment
 
 def accuracy(y_true, y_pred):
     y_pred = ops.convert_to_tensor(y_pred)
